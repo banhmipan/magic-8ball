@@ -1,0 +1,21 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+#ball-img {
+  width: 300px;
+  height: 300px;
+}
+
+#ball-img:hover {
+  cursor: pointer;
+}
+
+#ball-img:active {
+  transform: scale(1.05);
+}
+
+input {
+  margin-top: 20px;
+}
