@@ -15,7 +15,3 @@
 #ball-img:active {
   transform: scale(1.05);
 }
-
-input {
-  margin-top: 20px;
-}
