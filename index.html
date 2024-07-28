@@ -11,12 +11,19 @@
     <!-- 8 ball -->
     <div class="container">
       <h1>Ask the Magic 8 Ball a question!</h1>
-      <input type="text" name="question" id="question-txt"><br />
+      <label for="name">Enter your name: </label><input type="text" name="name" id="name-input"><br />
+      <label for="question">Enter your question (yes or no questions only!): </label><input type="text" name="question" id="question-input"><br />
       <img
       src="magic-8ball.png"
       alt="magic 8 ball"
       id="ball-img">
-      <p id="answer-txt">Type in a question into the box, then click the 8 ball to reveal the answer here.</p><br>
+      <p id="answer-txt">[Answer will be displayed here]</p><br>
+      <details>
+        <summary><strong>Options</strong></summary>
+        <button id="nclear-btn">Clear Name</button>
+        <button id="qclear-btn">Clear Question</button>
+        <button id="aclear-btn">Clear All</button>
+      </details>
     </div>
   </body>
   <script src="script.js"></script>
