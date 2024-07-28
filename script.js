@@ -1,7 +1,7 @@
 const answersArray = [
   'It is certain.',
   'It is decidedly so.',
-  'Wihtout a doubt.',
+  'Without a doubt.',
   'Yes definitely.',
   'You may rely on it.',
   'As I see it, yes.',
@@ -23,6 +23,7 @@ const answersArray = [
 
 const shakeAudio = new Audio('ball-shake.wav');
 const errorAudio = new Audio('xp-error.mp3');
+const popAudio = new Audio('');
 
 // Element Declarations
 const ballImg = document.getElementById('ball-img');
